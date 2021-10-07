@@ -1,0 +1,35 @@
+.header{
+    background-color:#ffffff;
+    background-image: url("../img/grafig-1.fw.png");
+    color:#ff0000;
+    text-align:center;
+    padding:10px;
+}
+.nav{
+    background-color: #400000;
+    text-align:center;
+    padding:5px;
+    font-size: 15px;
+}
+.nav-item{
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.content{
+    background-color: #0000ff;
+    padding:50px;
+    text-align:center;
+}
+img{
+    height: 200px;
+    width: 250px;
+}
+.footer{
+    background-color: #000000;
+    text-align:center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ffffff;
+}
