@@ -1,0 +1,33 @@
+.nav{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;    
+}
+.link-item{
+    text-decoration: none;
+    color: #E1A33E;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.content{
+    text-align: center;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+.content h1{
+    color: #1854B7;
+}
+.content p{
+    line-height: 1.5;
+}
+.underline{
+    text-decoration: underline;
+}
+.footer{
+    background-color: #DDDDDD;
+    color: #000000;
+    text-align: center;
+    padding: 8px;
+    font-size: 12px;
+    margin-top: 20px;
+}
