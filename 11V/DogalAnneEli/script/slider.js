@@ -6,10 +6,10 @@ function Img(){
 class Image {
     closeTransformPrev(){
         var closeTransformPrev = document.getElementById("button");
-        closeTransformPrev.classList.add("prev")
+        closeTransformPrev.classList.add("button-prev-1")
     }
     closeTransformNext(){
         var closeTransformNext = document.getElementById("button");
-        closeTransformNext.classList.add("next")
+        closeTransformNext.classList.add("button-next-1")
     }
 }
