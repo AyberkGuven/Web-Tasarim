@@ -1,0 +1,114 @@
+.slider{
+    display: flex;
+    position: relative;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+}
+.slider img{
+    /* position: absolute; */
+    left: 0;
+}
+.button{
+    position: absolute;
+    top: 45%;
+    left: 20px;
+    right: 20px;
+    /* box-sizing: border-box; */
+}
+.button-prev{
+    display: inline-block;
+    z-index: 9;
+    font-size: 0;
+    text-align: center;
+    top: 0;
+    margin: 0;
+    opacity: 1!important;
+    float: left;
+    width: 50px;
+    height: 50px;
+    border: 0;
+    background-color: #fff;
+    border-radius: 12px;
+    cursor: pointer;
+    position: absolute;
+}
+.button-prev{
+    left: 0;
+}
+.button-prev::before{
+    content: "<";
+    font-family: FontAwesome;
+    font-size: 30px;
+    line-height: 50px;
+    color: #000;
+}
+.prev{
+    transform: translateX(-400px);
+}
+.button-next{
+    display: inline-block;
+    z-index: 9;
+    font-size: 0;
+    text-align: center;
+    top: 0;
+    margin: 0;
+    opacity: 1!important;
+    float: left;
+    width: 50px;
+    height: 50px;
+    border: 0;
+    background-color: #fff;
+    border-radius: 12px;
+    cursor: pointer;
+    position: absolute;
+}
+.button-next{
+    right: 0;
+}
+.button-next::before{
+    content: ">";
+    font-family: FontAwesome;
+    font-size: 30px;
+    line-height: 50px;
+    color: #000;
+}
+.next{
+    transform: translateX(400px);
+}
+.button-1{
+    float: left;
+    position: absolute;
+    bottom: 16px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.button-1-5{
+    margin: 0 5px!important;
+    cursor: pointer;
+    display: inline-block;
+    zoom: 1;
+}
+button.button-1-5{
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+}
+.button-1-5 span{
+    position: relative;
+    width: 8px;
+    height: 8px;
+    /* box-shadow: none; */
+    font-size: 0;
+    text-indent: 0;
+    background-color: transparent;
+    border-radius: 8px;
+    display: block;
+    cursor: default;
+    border: 2px solid #fff;
+}
