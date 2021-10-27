@@ -1,0 +1,82 @@
+.nav{
+    display: flex;
+    margin: 35px;
+    margin-bottom: 20px;
+}
+.nav img{
+    padding: 0 15%;
+}
+.nav a{
+    text-decoration: none;
+    color: #000000;
+    padding-left: 30px;
+}
+.nav nav{
+    padding-left: 9%;
+}
+.content{
+    background-image: url("../img/hero.jpg");
+    height: 500px;
+    border-bottom: 3px solid #ff4000;
+    color: #ffffff;
+    text-align: center;
+    /* position: relative; */
+    /* height: 770px; */
+}
+.content h1{
+    padding-top: 17%;
+}
+.img{
+    padding-left: 43%;
+}
+.content-1{
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.content-1 div{
+    /* padding: 0 45px; */
+    /* padding-right: 55px; */
+    width: 501px;
+    display: inline;
+}
+.content-1 div > h3{
+    padding-right: 100px;
+    display: inline-flex;
+    /* float: left; */
+    font-size: medium;
+    margin: 45px 0;
+}
+.content-1 div > p{
+    margin: 45px 0;
+    display: inline-flex;
+    float: right;
+}
+.content-2{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+}
+.content-2 h2{
+    padding-right: 75px;
+    margin-bottom: 55px;
+}
+.content-2 div > img{
+    width: 175px;
+    height: 150px;
+    /* display: inline-flex; */
+    padding: 0 40px 0 0;
+}
+.content-3{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+}
+.content-3 h2{
+    margin-bottom: 55px;
+}
+.content-3 img{
+    width: 300px;
+    display: flex;
+    float: left;
+}
