@@ -1,30 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <title>Dogal | AnneEli.com</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="script/slider.js"></script>
 </head>
 <body>
-    <div id="button" class="slider">
-        <img onclick="Img()"src="images/pic01.jpg" alt="pic01">
-        <img onclick="Img()" src="images/pic02.jpg" alt="pic02">
-        <img onclick="Img()" src="images/pic03.jpg" alt="pic03">
-        <img onclick="Img()" src="images/pic04.jpg" alt="pic04">
-        <img onclick="Img()" src="images/pic05.jpg" alt="pic05">
+    <div class="slider">
+        <img class="img" src="images/slider.fw.png" alt="pic">
         <div>
             <div class="button">
-                <div role="presentation" class="button-prev"><span aria-label="Previous"></span></div>
-                <div role="presentation" class="button-next"><span aria-label="Next"></span></div>
+                <button onclick="changeImage2()" class="button-prev"><span aria-label="Previous"></span></button>
+                <button onclick="changeImage()" class="button-next"><span aria-label="Next"></span></button>
             </div>
-            <div class="button-1">
-                <button class="button-1-5"><span></span></button>
-                <button class="button-1-5"><span></span></button>
-                <button class="button-1-5"><span></span></button>
-                <button class="button-1-5"><span></span></button>
-                <button class="button-1-5"><span></span></button>
-            </div>
+            <!-- <div>
+                <div>
+                    <img id="image" src="images/pic1.jpg" alt="pic">
+                </div>
+                <div class="button-1">
+                    <a class="button-1-5" onclick="changeImage()"><span></span></a>
+                    <a class="button-1-5" onclick="changeImage()"><span></span></a>
+                    <a class="button-1-5" onclick="changeImage()"><span></span></a>
+                    <a class="button-1-5" onclick="changeImage()"><span></span></a>
+                    <a class="button-1-5" onclick="changeImage()"><span></span></a>
+                </div>
+            </div> -->
         </div>
     </div>
 </body>
 </html>
+<script src="script/slider.js"></script>

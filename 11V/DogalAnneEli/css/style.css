@@ -1,6 +1,9 @@
+.img{
+    transition: transform 2s;
+}
 .slider{
-    display: flex;
     position: relative;
+    display: flex;
     width: 400px;
     height: 300px;
     overflow: hidden;
@@ -8,7 +11,7 @@
     margin-left: auto;
 }
 .slider img{
-    /* position: absolute; */
+    position: absolute;
     left: 0;
 }
 .button{
@@ -16,7 +19,7 @@
     top: 45%;
     left: 20px;
     right: 20px;
-    /* box-sizing: border-box; */
+    /* box-sizing: border-box;*/ 
 }
 .button-prev{
     display: inline-block;
@@ -46,7 +49,7 @@
     color: #000;
 }
 .button-prev-1{
-    transform: translateX(-400px);
+    transform: translate3d(400px, 0, 0);
 }
 .button-next{
     display: inline-block;
@@ -56,7 +59,7 @@
     top: 0;
     margin: 0;
     opacity: 1!important;
-    /* float: left; */
+    /* float: left;*/ 
     width: 50px;
     height: 50px;
     border: 0;
@@ -76,7 +79,8 @@
     color: #000;
 }
 .button-next-1{
-    transform: translateX(400px);
+    /* right: -400px; */
+    /* transform: translateX(-400px); */
 }
 .button-1{
     float: left;
@@ -112,3 +116,53 @@ button.button-1-5{
     cursor: default;
     border: 2px solid #fff;
 }
+/* Fotoğraf Başlangıç
+
+.foto{
+    position: absolute;
+    overflow: hidden;
+    width: 400px;
+    left: 35%;
+    height: 300px;
+}
+
+.foto img{
+    position: absolute;
+    left: 0px;
+    transition: left 1s;
+}
+
+/* Fotoğraf Sonu */
+
+
+/* Tuşlar Başlangıç */
+
+/*.ok{
+    text-decoration: none;
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+    top: 17%;
+    padding: 5px;
+    border-radius: 30%;
+}
+
+.ok1{
+    left: 37%;
+}
+
+.ok1:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.ok2{
+    left: 61%;
+}
+
+.ok2:hover{
+    background-color: #fff;
+    color: #000;
+} */
+
+/* Tuşlar Son */
