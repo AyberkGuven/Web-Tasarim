@@ -26,20 +26,14 @@ function changeImage(){
     } 
     console.log(sonraki);
 }
-var onceki=0;
 
 function changeImage2(){
-    if (onceki = 400) {
-        onceki-=400
-        document.getElementsByClassName("img")[0].style.transform = "translate3d("+onceki+"px, 0, 0)";
+    if (sonraki > 0) {
+        sonraki-=400;
+        document.getElementsByClassName("img")[0].style.transform = "translate3d(-"+sonraki+"px, 0, 0)";
     }
-    console.log(onceki);
+    console.log(sonraki);
 }
-// function changeImage(f){
-//     var foto = "images/pic"+f+".jpg";
-//      document.getElementById("image").src = foto;
-//      //console.log(f);
-// }
 // function Img(f){
 //     var foto = "images/pic"+f+".jpg";
 //     document.getElementById("button").src = foto;

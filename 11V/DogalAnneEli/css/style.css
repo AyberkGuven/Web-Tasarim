@@ -48,9 +48,9 @@
     line-height: 50px;
     color: #000;
 }
-.button-prev-1{
+/* .button-prev-1{
     transform: translate3d(400px, 0, 0);
-}
+} */
 .button-next{
     display: inline-block;
     z-index: 9;
@@ -78,10 +78,10 @@
     line-height: 50px;
     color: #000;
 }
-.button-next-1{
-    /* right: -400px; */
-    /* transform: translateX(-400px); */
-}
+/* .button-next-1{
+    right: -400px; 
+    transform: translateX(-400px); 
+} */
 .button-1{
     float: left;
     position: absolute;
