@@ -1,0 +1,76 @@
+.slider{
+    position: relative;
+    display: flex;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+}
+.img{
+    display: flex;
+    position: absolute;
+    transition: transform 2s;
+    /* left: 0; */
+}
+.button{
+    position: absolute;
+    top: 45%;
+    left: 20px;
+    right: 20px;
+    /* box-sizing: border-box;*/ 
+}
+.button-prev{
+    display: inline-block;
+    z-index: 9;
+    font-size: 0;
+    text-align: center;
+    top: 0;
+    margin: 0;
+    opacity: 1!important;
+    /* float: left; */
+    width: 35px;
+    height: 35px;
+    border: 0;
+    background-color: #fff;
+    border-radius: 12px;
+    cursor: pointer;
+    position: absolute;
+}
+.button-prev{
+    left: 0;
+}
+.button-prev::before{
+    content: "<";
+    font-family: FontAwesome;
+    font-size: 30px;
+    line-height: 35px;
+    color: #0000ff;
+}
+.button-next{
+    display: inline-block;
+    z-index: 9;
+    font-size: 0;
+    text-align: center;
+    top: 0;
+    margin: 0;
+    opacity: 1!important;
+    /* float: left;*/ 
+    width: 35px;
+    height: 35px;
+    border: 0;
+    background-color: #fff;
+    border-radius: 12px;
+    cursor: pointer;
+    position: absolute;
+}
+.button-next{
+    right: 0;
+}
+.button-next::before{
+    content: ">";
+    font-family: FontAwesome;
+    font-size: 30px;
+    line-height: 35px;
+    color: #00ff00;
+}
