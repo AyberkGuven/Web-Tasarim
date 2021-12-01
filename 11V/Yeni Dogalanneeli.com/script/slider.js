@@ -1,7 +1,7 @@
 var sonraki=0;
 
 function sliderImg(){
-    if (sonraki < 7440) {
+    if (sonraki < 6200) {
         sonraki+=1240;
         document.getElementsByClassName("img")[0].style.transform = "translate3d(-"+sonraki+"px, 0, 0)";
     } 
