@@ -1,0 +1,25 @@
+.container{
+    margin-right: 20%;
+    margin-left: 20%;
+}
+.Alan-hesaplama{
+    text-align: center;   
+}
+.Alan-hesaplama div{
+    justify-content: center;
+    display: flex;
+}
+.Alan-hesaplama div > label{
+    margin-right: 40px;
+    margin-top: 20px;
+}
+.Alan-hesaplama div > input{
+    margin-top: 15px;
+}
+.Alan-hesaplama button{
+    margin-top: 20px;
+    background-color: #ff0000;
+    color: #ffff00;
+    text-align: center;
+    padding: 10px 35px;
+}
