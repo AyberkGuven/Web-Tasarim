@@ -27,17 +27,17 @@ function changeImg(d){
 var content2=0;
 
 function urunImg(){
-    if (content2 < 1760) {
-        content2+=220;
-        document.getElementsByClassName("content2 a")[0].style.transform = "translate3d(-"+sonraki+"px, 0, 0)";
+    if (content2 < 711) {
+        content2+=237;
+        document.getElementsByClassName("content2-item")[0].style.transform = "translate3d(-"+content2+"px, 0, 0)";
     } 
     console.log(content2);
 }
 
 function urunImg2(){
-    if (content > 0) {
-        content-=220;
-        document.getElementsByClassName("content2 a")[0].style.transform = "translate3d(-"+sonraki+"px, 0, 0)";
+    if (content2 > 0) {
+        content2-=237;
+        document.getElementsByClassName("content2-item")[0].style.transform = "translate3d(-"+content2+"px, 0, 0)";
     }
-    console.log(content);
+    console.log(content2);
 }

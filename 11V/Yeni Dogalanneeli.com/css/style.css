@@ -131,17 +131,19 @@
     color: #ffffff;
 }
 .content2{
-    display: flex;
-    width: 1180px;
+    width: 1200px;
     overflow: hidden;
     margin-right: auto;
     margin-left: auto;
     position: relative;
 }
-.content2 a{
+.content2-item{
+    display: flex;
+}
+.content2-item a{
     margin: 30px 10px;
 }
-.content2 img{
+.content2-item img{
     width: 220px;
     height: 330px;
 }
