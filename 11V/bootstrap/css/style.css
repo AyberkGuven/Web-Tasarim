@@ -1,0 +1,46 @@
+.header{
+    background-color: #f0f0f0;
+    height: 120px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+.nav{
+    align-items: center;
+}
+.nav-link{
+    color: #000000 !important;
+}
+.nav-link:hover{
+    color: #4fffd4 !important;
+}
+.detay{
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 2px solid #999999;
+}
+.footer{
+    background-color: #999999;
+    height: 120px;
+    width: 100%;
+}
+.footer div{
+    margin-top: 40px;
+}
+.daire{
+    
+}
+.daire a{
+    text-decoration: none;
+    background-color: #f0f0f0;
+    height: 35px;
+    width: 35px;
+    line-height: 2.4;
+    border-radius: 100%;
+    color: #000000;
+    padding-left: 10px;
+}
+.table{
+    color: #999999 !important;
+}
