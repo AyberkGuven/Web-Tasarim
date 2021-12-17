@@ -1,0 +1,22 @@
+/* .container{
+
+} */
+.script{
+    
+}
+.script a{
+    text-decoration: none;
+}
+.paragraf{
+    justify-items: center;
+    height: 0;
+    transition: height 3s, opacity 3s;
+    background-color: #00ff00;
+    overflow: hidden;
+}
+.info{
+    height: 150px;
+}
+.show{
+    height: 0;
+}
