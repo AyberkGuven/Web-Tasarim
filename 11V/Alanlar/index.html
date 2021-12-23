@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Alan | Hesplama</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div>
+        <fieldset class="content">
+            <legend>Alan Hesaplama Aracı</legend>
+            <div>
+                <p>* Doldurulması zorunlu alanlar.</p>
+                <div class="radio">
+                    <label for="Şekil" style="display: block;height: 85px;">Şekil:</label>
+                    <div class="intext1" style="margin-top: 0;">
+                        <label for="Taban" style="display:block;margin-bottom: 9px;">Taban</label>
+                        <label for="Yükseklik">Yükseklik</label>
+                    </div>
+                    <div style="margin-top: 5px;" class="intext2">
+                        <label for="Yarıçap">Yarıçap</label>
+                    </div>
+                </div>
+                <div class="text">
+                    <input onclick="Hesaplanacaklar(1)" type="radio" name="buton" checked id="DikdörtgenKareTabanı"> Dikdörtgen(veya Kare)<br>
+                    <input onclick="Hesaplanacaklar(1)" type="radio" name="buton" id="ÜçgenTabanı"> Üçgen<br>
+                    <input onclick="Hesaplanacaklar(2)" type="radio" name="buton" id="DaireTabanı"> Daire
+                    <div class="intext1">
+                        <input type="text" name="Taban" id="Taban">cm<br>
+                        <input type="text" name="Yükseklik" id="Yükseklik">cm
+                    </div>
+                    <div class="intext2">
+                        <input type="text" name="Yarıçap" id="Yarıçap">
+                    </div>
+                </div>
+            </div>
+            <div class="buton">
+                <button onclick="Hesaplama()">Hesapla</button>
+                <a href="index.html">Temizle</a>
+            </div>
+            <div id="sonuç"></div>
+        </fieldset>
+    </div>
+</body>
+</html>
+<script src="script/alan.js"></script>

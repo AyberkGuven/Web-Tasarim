@@ -1,0 +1,43 @@
+.content{
+    border-radius: 8px;
+}
+.content div > label{
+    margin-right: 10%;
+} 
+.radio{
+    margin-right: 30px;
+    width: 64px;
+    float: left;
+}
+.text{
+    width: 300px;
+}
+.intext1{
+    margin-top: 10px;
+}
+.intext1 input{
+    margin-bottom: 15px;
+}
+.intext2{
+    display: none;
+}
+.buton{
+    margin-top: 10px;
+}
+.buton button{
+    background-color: #3b8cee;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 20%;
+}
+.buton a{
+    background-color: #f0f0f0;
+    color: #000000;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
