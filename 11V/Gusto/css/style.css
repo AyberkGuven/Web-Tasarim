@@ -1,0 +1,314 @@
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    background-image: url(../img/intro-bg.jpg);
+    color: #ffffff;
+    height: 771px;
+    width: 100%;
+    text-align: center;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+.black{
+    background-color: #000000;
+    opacity: 0.5;
+    height: 771px;
+    color: #ffffff;
+    position: relative;
+}
+.black h1{
+    font-size: 160px;
+    margin-top: 0;
+    font-family: cursive;
+}
+.text{
+    position: absolute;
+    width: 100%;
+    top: 45%;
+}
+.nav{
+    position: fixed;
+    /* display: block; */
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+}
+.nav-item{
+    margin-right: 40px;
+    font-size: 17px;
+    cursor: pointer;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+}
+.content1container{
+    margin-right: 15%;
+    margin-left: 7%;
+    width: 75%;
+    text-align: center;
+}
+.content1container h2{
+    margin-left: 15%;
+    font-size: 30px;
+}
+.content1container span{
+    width: 55px;
+    display: block;
+    border-top: 3px solid #ff0000;
+    margin-left: 55%;
+    margin-right: 45%;
+}
+.content1{
+    display: flex;
+}
+.content1 div > img{
+    height: 200px;
+    width: 350px;
+}
+.content1 div{
+    margin-right: 50px;
+}
+.content1 div > h4{
+    font-size: 24px;
+    font-weight: 100;
+}
+.content2{
+    display: flex;
+    background-color: #f0f0f0;
+    overflow: hidden;
+}
+.content2 span{
+    width: 55px;
+    display: block;
+    border-top: 3px solid #ff0000;
+    /* margin-left: 95%; */
+    /* margin-right: 45%; */
+    margin-bottom: 50px;
+}
+.content2 div{
+    width: 650px;
+    height: 475px;
+}
+.story{
+}
+.story div{
+    padding: 100px 300px 100px 150px;
+    width: 300px;
+}
+.story div > h2{
+    font-weight: 300;
+    font-size: 30px;
+}
+.content3{
+    margin-right: 15%;
+    margin-left: 15%;
+    text-align: center;
+}
+.content3 span{
+    width: 55px;
+    display: block;
+    border-top: 3px solid #ff0000;
+    margin-left: 47%;
+    margin-right: 45%;
+    /* margin-bottom: 50px; */
+}
+.content3 div{
+    display: flex;
+}
+.content3 div > div{
+    display: block;
+    width: 650px;
+}
+.content3 h2{
+    font-weight: 400;
+    font-size: 30px;
+}
+.content3 div > span{
+    width: 55px;
+    display: block;
+    border-top: 3px solid #ff0000;
+    margin-left: 45%;
+    margin-right: 45%;
+    /* margin-bottom: 50px; */
+}
+.content3 div > div > div{
+    width: 100%;
+}
+.content3 h3{
+    font-weight: 100;
+    font-size: 30px;
+}
+.content3 h4{
+    font-weight: 500;
+    font-size: 20px;
+    text-align: justify;
+}
+.content3 div > div > div > div > p{
+    text-align: justify;
+}
+.content3 div > div > div > p{
+    float: right;
+    margin-top: 0;
+}
+.content4{
+    margin-right: 15%;
+    margin-left: 15%;
+    text-align: center;
+}
+.content4 div > span{
+    width: 55px;
+    display: block;
+    border-top: 3px solid #ff0000;
+    margin-left: 45%;
+    margin-right: 45%;
+    /* margin-bottom: 50px; */
+}
+.content4 div{
+    display: flex;
+}
+.content4 div > div{
+    display: block;
+    width: 650px;
+}
+.content4 h2{
+    font-weight: 400;
+    font-size: 30px;
+}
+.content4 div > div > div{
+    width: 100%;
+}
+.content4 h3{
+    font-weight: 100;
+    font-size: 30px;
+}
+.content4 h4{
+    font-weight: 500;
+    font-size: 20px;
+    text-align: justify;
+}
+.content4 div > div > div > div > p{
+    text-align: justify;
+}
+.content4 div > div > div > p{
+    float: right;
+    margin-top: 0;
+}
+.content5{
+    /* display: flex; */
+    /* text-align: justify; */
+}
+.content5 div > span{
+    width: 55px;
+    display: block;
+    border-top: 3px solid #ff0000;
+    /* margin-left: 45%; */
+    /* margin-right: 45%; */
+    /* margin-bottom: 50px; */
+}
+.content5 img{
+    width: 331px;
+    height: 200px;
+    float: left;
+}
+.chef{
+    padding-top: 100px;
+    display: flex;
+    margin-right: 18%;
+    margin-left: 18%;
+    width: 64%;
+    overflow: hidden;
+}
+.chef div{
+    width: 650px;
+}
+.chef img{
+    width: 400px;
+    height: 266px;
+    float: right;
+}
+footer{
+    background-color: #444444;
+    text-align: center;
+}
+footer div{
+    margin-right: 20%;
+    margin-left: 20%;
+}
+footer div > div{
+    margin-right: auto !important;
+    margin-left: auto !important;
+    
+}
+footer input{
+    padding-right: 149px;
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+    opacity: 0.4;
+}
+footer textarea{
+    background-color: #f0f0f0;
+    opacity: 0.4;
+}
+footer a{
+    text-decoration: none;
+    color: #999999;
+    border: 2px solid #999999;
+    padding: 10px;
+    margin-top: 30px !important;
+    text-align: center;
+    display: inline-block;
+}
+footer div > div :first-child{
+    display: flex;
+}
+footer h3{
+    display: block !important;
+    font-weight: 100 ;
+    color: #ffffff;
+}
+footer h2{
+    text-align: center;
+    display: block !important;
+    font-weight: 100;
+    color: #ffffff;
+}
+footer p{
+    color: #999999;
+}
+footer span{
+    width: 55px;
+    display: block;
+    border-top: 3px solid #ff0000;
+    margin-left: 35%;
+    margin-right: 35%;
+    /* margin-bottom: 50px; */
+}
+.last-footer{
+    background-color: #333333;
+    /* display: flex; */
+    color: #ffffff;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    width: 100% !important;
+    margin-top: 70px;
+}
+.last-footer p{
+    color: #999999;
+    display: block !important;
+    text-align: center !important;
+    width: 100%;
+}
+.last-footer a{
+    text-decoration: none;
+    color: #ffffff;
+    border: 0;
+    padding: 0;
+    margin-top: 0;
+    text-align: none;
+    display: inline !important;
+}
+.last-footer i{
+    margin-right: 30px;
+    /* align-items: center; */
+    margin-top: 20px;
+}
