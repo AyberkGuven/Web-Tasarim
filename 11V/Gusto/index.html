@@ -4,16 +4,20 @@
     <title>Gusto</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script/scrollnav.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
     <div class="container">
         <header class="header">
             <nav class="nav">
-                <a class="nav-item">SPECIALS</a>
-                <a class="nav-item">ABOUT</a>
-                <a class="nav-item">MENU</a>
-                <a class="nav-item">CHEF</a>
-                <a class="nav-item">CONTACT</a>
+                <div class="nav2">
+                    <a href="#SPECIALS" class="nav-item">SPECIALS</a>
+                    <a href="#ABOUT" class="nav-item">ABOUT</a>
+                    <a href="#MENU" class="nav-item">MENU</a>
+                    <a href="#CHEF" class="nav-item">CHEF</a>
+                    <a href="#CONTACT" class="nav-item">CONTACT</a>
+                </div>  
             </nav>
             <div class="black">
                 <div class="text">
@@ -22,8 +26,9 @@
                 </div>
             </div>
         </header>
-        <section class="content1container">
-            <h2>OUR SPECIALS</h2>
+        <a href="#" id="scroll0"><i class="fa fa-chevron-circle-up scroll0"></i></a>
+        <section class="content1container" id="SPECIALS">
+            <h2 >OUR SPECIALS</h2>
             <span></span>
             <div class="content1">
                 <div>
@@ -49,15 +54,15 @@
             </div>
             <div class="story">
                 <div>
-                    <h2>OUR STORY</h2>
+                    <h2 id="ABOUT">OUR STORY</h2>
                     <span></span>
                     <p>Lorem ipsum dolor sit amet, Ut consectetur adipiscing elit, sed do eiusmod tempor incididunt int occaecat consectetur adipiscing elit, sed do utu cupidatat non proident.</p>
                     <p>Lorem ipsum dolor sit amet, Ut consectetur adipiscing elit, sed do eiusmod tempor incididunt int occaecat consectetur adipiscing elit, sed do </p>
                 </div>
             </div>
         </section>
-        <section class="content3">
-            <h2>MENU</h2>
+        <section class="content3" id="MENU">
+            <h2 >MENU</h2>
             <span></span>
             <div>
                 <div style="margin-right: 50px;">
@@ -194,14 +199,14 @@
                 </div>
             </div>
         </section>
-        <section class="content5">
+        <section class="content5" id="CHEF">
             <img src="img/gallery/01.jpg" alt="1">
             <img src="img/gallery/02.jpg" alt="2">
             <img src="img/gallery/03.jpg" alt="3">
             <img src="img/gallery/04.jpg" alt="4">
             <div class="chef">
                 <div style="margin-right: 50px;">
-                    <h3>MEET OUR CHEF</h3>
+                    <h3 >MEET OUR CHEF</h3>
                     <span></span>
                     <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt int occaecat consectetur adipiscing elit, sed consectetur adipiscing elit, sed do eiusmod temporu utu cupidatat non proident.</p>
                     <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt int occaecat consectetur adipiscing elit, sed consectetur adipiscing elit, sed do eiusmod temporu utu copy utu.</p>
@@ -209,7 +214,7 @@
                 <div><img src="img/chef.jpg" alt="chef"></div>
             </div>
         </section>
-        <footer>
+        <footer id="CONTACT">
             <div>
                 <div>
                     <div>
@@ -233,7 +238,7 @@
                         </div>
                     </div>
                     <div>
-                        <h2>SEND US A MESSAGE</h2>
+                        <h2 >SEND US A MESSAGE</h2>
                         <span style="margin-left: 47%;margin-right: 45%;margin-bottom: 40px;"></span>
                         <input type="text" name="Name" id="Name" placeholder="Name" style="margin-right: 30px;">
                         <input type="text" name="Gmail" id="Gmail" placeholder="Gmail">
