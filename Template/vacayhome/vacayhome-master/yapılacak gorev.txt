@@ -1,0 +1,10 @@
+Gençler merhaba, bugün sizden istenen görev şu.
+
+Kocaeli ili Kartepe ilçesinde bulunan Babil Bungalow Hotel  mevcut web sitesini Html formattan MVC formata dönüşüm yapmak istemektedir.
+
+1. Otelin Mevcut web sitesi http://www.babilbungalowhotel.com dur.
+2. Otel yeni tasarımda vacayhome templateti kullanmak istemektedir.
+3. Anasayfada bulunan slider'a bilgiler veritabanından gelecektir.
+4. Otel Galeri sayfasına sınırsız resim eklemek veya silmek istemektedir.
+5. iletişim sayfasında bulunan form yardımı ile otel kullanıcılarından mesaj almak istemektedir. bu mesaj veri tabanında tutulacaktır.
+6. Geri kalan tum bilgileri otelin http://www.babilbungalowhotel.com sitesinden alınırak tasarımcı tarafından istenildiği gibi kullanılabilinir. 
