@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Lo-Key</h1>
+            <div>
+                <a class="header-item" href="index.html">HOME</a>
+                <a class="header-item" href="products.html">PRODUCTS</a>
+                <a class="header-item" href="contact.html">CONTACT</a>
+            </div>
+        </header>
+        <form>
+            <h1 style="font-weight: bold; text-align: center; margin-top: 100px;">Contact Us</h1>
+            <div class="form">
+                <input type="text" id="fname" required name="fname" required placeholder="Adınız">
+            </div>
+            <div class="form">
+                <input type="text" id="E-Posta" required name="E-Posta Adresiniz" required placeholder="E-Posta Adresiniz">
+            </div>
+            <div class="form">
+                <select name="Mesleğiniz" id="Mesleğiniz">
+                <option value="1">Mesleğiniz</option>
+                <option value="0">Öğrenci</option>
+                <option value="0">Öğretmen</option>
+                </select>
+            </div>
+            <div style="text-align: center; margin-bottom: 15px;">
+                <input type="radio" id="html" name="Erkek" value="Erkek">Erkek
+                <input type="radio" id="html" name="Kadın" value="Kadın">Kadın
+            </div>
+            <div class="form">
+                <textarea name="note" id="note" cols="52s" rows="10" placeholder="Mesajınız..."></textarea>
+            </div>
+            <div class="onay">
+                <input type="checkbox" id="onay" name="onay" required value="Bilgilendirme maillerini gönderilmesini kabul ediyorum.">
+                <label for="onay">Bilgilendirme maillerini gönderilmesini kabul ediyorum.</label><br><br>
+                <input type="submit" class="submit" value="Gönder">
+            </div>
+        </form>
+        <footer class="footer">
+            <p>All rights reserved by Lo-Key Ins.</p>
+        </footer>
+    </div>
+</body>
+</html>

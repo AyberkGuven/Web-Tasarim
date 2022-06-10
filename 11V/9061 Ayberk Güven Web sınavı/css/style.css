@@ -1,0 +1,132 @@
+.container{
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.header{
+    background-color: #fff1ec;
+    color: #913b26;
+    display: flex;
+    font-weight: bold;
+    position: fixed;
+    width: 70%;
+    top: 0;
+    right: 15%;
+    left: 15%;
+}
+.header-item{
+    text-decoration: none;
+    color: #913b26;
+    display: inline;
+    padding: 10px 0 10px 10px;
+}
+.header div{
+    margin-top: 27px;
+    margin-left: 32%;
+}
+.header h1{
+    color: #913b26;
+    margin-left: 15%;
+}
+.banner{
+    margin-top: 80px;
+    height: 300px;
+    width: 944px;
+    overflow: hidden;
+    background-image: url("../images/man-in-leather-graffiti-bricks_925x.jpeg");
+}
+.banner h2{
+    color: #ffffff;
+    margin-left: 15%;
+    margin-top: 70px;
+    font-size: xx-large;
+}
+.banner p{
+    color: #ffffff;
+    margin-left: 15%;
+}
+.banner a{
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    color: #913b26;
+    background-color: #ffffff;
+    margin-left: 15%;
+    padding: 3px 10px;
+}
+.content{
+    margin-right: 15%;
+    margin-left: 15%;
+    text-align: justify;
+    margin-top: 75px;
+}
+.content-products{
+    display: flex;
+    text-align: center;
+}
+.content-products div{
+    width: 300px;
+    height: 315px;
+    margin: 10px;
+    border: 2px solid #999999;
+}
+.content-products img{
+    width: 290px;
+    height: 217px;
+}
+.content-products div > div{
+    width: 30px;
+    height: 30px;
+    margin: 0 10px 0 0;
+    display: inline-block;
+
+}
+.content-top{
+    margin-top: 110px;
+}
+.form{
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-bottom: 15px;
+}
+.onay{
+    text-align: center;
+}
+.submit{
+    background-color: #913b26;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 5px 20px;
+}
+.footer{
+    background-color: #fff1ec;
+    color: #913b26;
+    text-align: center;
+    padding: 2px;
+    position: fixed;
+    bottom: 0;
+    width: 70%;
+}
+.form input{
+    border: 3px solid #913B26;
+    border-radius: 8px;
+    padding-left: 15px;
+    padding-right: 280px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.form select{
+    border: 3px solid #913B26;
+    border-radius: 8px;
+    padding-right: 350px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.form textarea{
+    border: 3px solid #913B26;
+    border-radius: 8px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
